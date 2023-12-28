@@ -1,0 +1,29 @@
+<svg id="Icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="137.97" height="136.031" viewBox="0 0 137.97 136.031">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+
+      .cls-1 {
+        fill-rule: evenodd;
+        stroke: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill-opacity: 0;
+        opacity: 0.75;
+        stroke: url(#linear-gradient-2);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="1173.41" y1="492.643" x2="1127.03" y2="446.263" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#39a1e1"/>
+      <stop offset="1" stop-color="#866ce8"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="102.18" y1="102.183" x2="1" y2="1.004" xlink:href="#linear-gradient"/>
+  </defs>
+  <path class="cls-1" d="M1127.03,447.677l1.41-1.419,44.97,44.968-1.42,1.419Z" transform="translate(-1036.44 -357.625)"/>
+  <circle class="cls-2" cx="51.59" cy="51.594" r="50.59"/>
+</svg>
