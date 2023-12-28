@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.foot-type-1{
+    background-color: darkslateblue;
+    /* padding: 6vw; */
+    padding-top: .7in;
+    padding-bottom: .3in;
+    margin-top: 1in;
+}
+.foot-type-1 .first-div button{
+    border-radius: 0px 9px 9px 0px;
+    padding: 0vw 1vw;
+    /* margin-left: 5px; */
+    border: none;
+}
+.foot-type-1 .first-div h4{
+    color: white;
+}
+.foot-type-1 h1{
+    color: white;
+}
+.foot-type-1 ul{
+    margin-top: 2em;
+}
+.foot-type-1 .first-div{
+    background-color: rgb(57, 57, 228);
+    margin: 0 auto;
+    margin-top: -1in;
+    max-width: 70%;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    /* margin: 0 auto; */
+    padding: 2em 2vw;
+    border-radius: 10px;
+}
+.foot-type-1 .first-div input{
+    background-color: rgba(255, 255, 255, 0.568);
+    border: none;
+    /* margin: 1px 5px; */
+    border-radius: 9px 0px 0px 9px;
+    padding: 1vw;
+}
+.foot-type-2{
+    padding-top: 4vw;
+    margin-top: 1cm;
+    background-color: rgb(31, 30, 30);
+}
+.foot-type-2 p{
+    padding: 20px 1px;
+    max-width: 600px;
+}
+.foot-type-2 .link{
+    max-width: 400px;
+}
+.foot-type-2 .foot-2 .flex-group{
+    padding-top: 1.3em;
+}
+.foot-type-2 .foot-2 .flex-group a{
+    margin-right: 3vw;
+}

@@ -1,0 +1,470 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 3em;
+    font-family: sans-serif;
+}
+h2{
+    font-size: 2.5em;
+    font-family: sans-serif;
+}
+h3{
+    font-size: 2em;
+    font-family: sans-serif;
+}
+h4{
+    font-size: 1.5em;
+    font-family: sans-serif;
+}
+h5{
+    font-size: 1.2em;
+    font-family: sans-serif;
+}
+h6{
+    font-size: .9em;
+    font-family: sans-serif;
+}
+p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1em;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-size: 1em;
+}
+h1,h2,h3,h4,h5,h6,p{
+    padding: 5px;
+}
+li,input::placeholder{
+    font-size: 1em;
+}
+button{
+    font-size: .7em;
+    text-transform: capitalize;
+    background-color: hidden;
+    border-radius: 3px;
+    border-width: 1.6px;
+    padding: .3vw;
+    box-shadow: 0 2px 3px rgba(0,0,0,.5);
+    cursor: pointer;
+}
+.white{
+    background-color: white;
+}
+.white-text{
+    color: white;
+}
+button:active{
+    scale: .95;
+    box-shadow: none;
+}
+span{
+    display: flex;
+    justify-content: space-around;
+}
+.two-as-one,.three-as-one{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.two-as-one .first-child,.three-as-one .first-child{
+    border-radius: 0;
+    border-top-left-radius: 5px;
+    box-shadow: none;
+    border-bottom-left-radius: 5px;
+    border-right-width: 1px;
+}
+.light-red{
+    background-color: rgb(243, 135, 135);
+}
+.light-blue{
+    background-color: lightblue;
+}
+.yellow{
+    background-color: yellow;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+.light-green{
+    background-color: lightgreen;
+}
+.black{
+    background-color: black;
+    color: white;
+}
+.brown{
+    background-color: brown;
+}
+.light-brown{
+    background-color: rgb(226, 170, 14);
+}
+.three-as-one .second-child{
+    border-radius: 0;
+    box-shadow: 0;
+    border-left-width: 0px;
+}
+.flex-group{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.flex-group-spaced{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+.flex-group-apart{
+    display: flex;
+    justify-content: space-between;
+}
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.center{
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+}
+.open-link-right::after{
+    content: url(./global/bg_collapsed_nolink.gif);
+    width: 0;
+    
+    /* transform: rotate(140deg); */
+    height: 0;
+}
+.open-link-down::before{
+    content: url(./global/bg_expanded_nolink.gif);
+    width: 0;
+    height: 0;
+}
+.two-as-one .second-child,.three-as-one .third-child{
+    border-radius: 0;
+    box-shadow: none;
+    border-left-width: 0px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+input{
+    max-width: 80vw;
+}
+.icon-img{
+    width: 2.5em;
+    margin: 5px;
+}
+h1::first-letter,h2::first-letter,h3::first-letter,h4::first-letter,h5::first-letter,h6::first-letter,p::first-letter,a::first-letter,li::first-letter{
+    text-transform: capitalize;
+}
+.circle-space{
+    border-radius: 50%;
+    width: 3em;
+    height: 3em;
+}
+.triangle-up-space{
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 20px solid black;
+}
+.triangle-up-space-green{
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 20px solid green;
+}
+.triangle-up-space-red{
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 20px solid red;
+}
+.triangle-up-space-blue{
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 25px solid blue;
+}
+.triangle-up-space-brown{
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 25px solid brown;
+}
+.triangle-down-space-blue{
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 25px solid blue;
+}
+.triangle-down-space-green{
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 25px solid green;
+}
+.triangle-down-space-brown{
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 25px solid brown;
+}
+.triangle-down-space-red{
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 25px solid red;
+}
+.triangle-down-space{
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 25px solid black;
+}
+.triangle-left-space{
+    width: 0;
+    height: 0;
+    border-right: 25px solid black;
+    border-bottom: 5px solid transparent;
+    border-top: 5px solid transparent;
+}
+.triangle-left-space-red{
+    width: 0;
+    height: 0;
+    border-right: 25px solid red;
+    border-bottom: 5px solid transparent;
+    border-top: 5px solid transparent;
+}
+.triangle-left-space-brown{
+    width: 0;
+    height: 0;
+    border-right: 25px solid brown;
+    border-bottom: 5px solid transparent;
+    border-top: 5px solid transparent;
+}
+.triangle-left-space-green{
+    width: 0;
+    height: 0;
+    border-right: 25px solid green;
+    border-bottom: 5px solid transparent;
+    border-top: 5px solid transparent;
+}
+.triangle-left-space-blue{
+    width: 0;
+    height: 0;
+    border-right: 25px solid blue;
+    border-bottom: 5px solid transparent;
+    border-top: 5px solid transparent;
+}
+.triangle-right-space{
+    width: 0;
+    height: 0;
+    border-left: 25px solid black;
+    border-bottom: 5px solid transparent;
+    border-top: 5px solid transparent;
+}
+.triangle-right-space-green{
+    width: 0;
+    height: 0;
+    border-left: 25px solid green;
+    border-bottom: 5px solid transparent;
+    border-top: 5px solid transparent;
+}
+.triangle-right-space-red{
+    width: 0;
+    height: 0;
+    border-left: 25px solid red;
+    border-bottom: 5px solid transparent;
+    border-top: 5px solid transparent;
+}
+.triangle-right-space-brown{
+    width: 0;
+    height: 0;
+    border-left: 25px solid brown;
+    border-bottom: 5px solid transparent;
+    border-top: 5px solid transparent;
+}
+.triangle-right-space-blue{
+    width: 0;
+    height: 0;
+    border-left: 25px solid blue;
+    border-bottom: 5px solid transparent;
+    border-top: 5px solid transparent;
+}
+.outline-space{
+    width: fit-content;
+    outline: 2px solid white;
+    outline-offset: -1vw;
+    padding: 1.4vw 2vw;
+}
+.header .left-div{
+    color: wheat;
+    position: absolute;
+    max-width: 65vw;
+    margin-top: clamp(10vh, 20%, 14vh);
+    margin-left: clamp(1px, 10%, 10vh);
+}
+.slider.fade-in.left{
+    opacity: 0;
+    transform: translateX(-50px);
+    animation: fadeIn 1s linear forwards;
+}
+.slider.fade-in.right{
+    opacity: 0;
+    transform: translateX(15px);
+    animation: fadeIn 1s linear forwards;
+}
+.slider.fade-in.top{
+    opacity: 0;
+    transform: translateY(-50px);
+    animation: fadeIn 1s linear forwards;
+}
+.slider.fade-in.bottom{
+    opacity: 0;
+    transform: translateY(15px);
+    animation: fadeIn 1s linear forwards;
+}
+.sliderentry.left{
+    opacity: 0;
+    transform: translateX(-1em);
+    animation: fadeIn 1s linear both;
+    animation-timeline: view(block);
+    animation-range: entry 20% cover 40%;
+}
+.sliderentry.right{
+    opacity: 0;
+    transform: translateX(1em);
+    animation: fadeIn 1s linear both;
+    animation-timeline: view(block);
+    animation-range: cover 0% cover 40%;
+}
+.sliderentry.top{
+    opacity: 0;
+    transform: translateY(-3em);
+    animation: fadeIn 1s linear both;
+    animation-timeline: view(block);
+    animation-range: cover 0% cover 40%;
+}
+.sliderentry.bottom{
+    opacity: 0;
+    transform: translateY(3em);
+    animation: fadeIn 1s linear both;
+    animation-timeline: view(block);
+    animation-range: cover 0% cover 40%;
+}
+.slider.fade-out.right{
+    opacity: 1;
+    animation: fadeOutRight 1s linear forwards;
+}
+.slider.fade-out.left{
+    opacity: 1;
+    animation: fadeOutLeft 1s linear forwards;
+}
+.slider.fade-out.top{
+    opacity: 1;
+    animation: fadeOutTop 1s linear forwards;
+}
+.slider.fade-out.bottom{
+    opacity: 1;
+    animation: fadeOutBottom 1s linear forwards;
+}
+@keyframes fadeOutLeft {
+    to{
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+}
+@keyframes fadeOutRight {
+    to{
+        opacity: 0;
+        transform: translateX(15px);
+    }
+}
+@keyframes fadeOutTop {
+    to{
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+}
+@keyframes fadeOutBottom {
+    to{
+        opacity: 0;
+        transform: translateY(15px);
+        /* display: none; */
+    }
+}
+@keyframes fadeIn {
+    to{
+        opacity: 1;
+        transform: translateX(0);
+        transform: translateY(0);
+    }
+}
+@media screen and (max-width: 450px){
+    h1{
+        font-size: 7vw;
+    }
+    .header .left-div{
+        margin-top: clamp(6vh, 20%, 14vh);
+    }
+    .outline-space{
+        outline: .6vw solid white;
+        outline-offset: -2vw;
+        padding: 1px 4vw;
+    }
+    .circle-space{
+        width: 8vw;
+        height: 8vw;
+    }
+    h2{
+        font-size: 6vw;
+    }
+    h3{
+        font-size: 5vw;
+    }
+    h4{
+        font-size: 4.5vw;
+    }
+    h5{
+        font-size: 4vw;
+    }
+    h6{
+        font-size: 3.5vw;
+    }
+    p,li,a,button,input::placeholder{
+        font-size: 3vw;
+    }
+    .icon-img{
+        width: 5vw;
+    }
+}
+@media screen and (min-width: 700px) {
+    .heading{
+        font-size: clamp(6em, 30%, 9em);
+    }
+    .heading-2{
+        font-size: clamp(4em, 30%, 9em);
+    }
+    .heading-3{
+        font-size: clamp(2em, 30%, 9em);
+    }
+}
